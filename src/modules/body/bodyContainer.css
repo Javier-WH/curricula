@@ -1,0 +1,14 @@
+#body-bontainer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 15px;
+}
+.body-module{
+    margin-right: 20px;
+ }
+
+.body-module-title{
+   font-size: 25px;
+   font-weight: 600;
+   border-bottom: 2px solid black;
+}

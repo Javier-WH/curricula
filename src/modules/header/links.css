@@ -1,0 +1,18 @@
+#link-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    margin: 20px 0 20px 0;
+}
+
+.link-element{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: gray;
+}
+
+.link-element a{
+    color: black;
+    text-decoration: none;
+}
