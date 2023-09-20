@@ -1,5 +1,29 @@
 import "./bodyContainer.css";
 
+import { ReactComponent as HtmlLogo } from '../../SVG/html.svg';
+import { ReactComponent as CssLogo } from '../../SVG/css.svg';
+import { ReactComponent as JSLogo } from '../../SVG/javascript.svg';
+import { ReactComponent as CSLogo } from '../../SVG/cs.svg';
+import { ReactComponent as CLogo } from '../../SVG/c.svg';
+import { ReactComponent as CPPLogo } from '../../SVG/cpp.svg';
+import { ReactComponent as JavaLogo } from '../../SVG/java.svg';
+import { ReactComponent as PHPLogo } from '../../SVG/php.svg';
+import { ReactComponent as LaravelLogo } from '../../SVG/laravel.svg';
+import { ReactComponent as PythonLogo } from '../../SVG/python.svg';
+import { ReactComponent as KotlinLogo } from '../../SVG/kotlin.svg';
+import { ReactComponent as ReactLogo } from '../../SVG/react.svg';
+import { ReactComponent as MaterialUILogo } from '../../SVG/materialui.svg';
+import { ReactComponent as NodeJsLogo } from '../../SVG/nodejs.svg';
+import { ReactComponent as NextJsLogo } from '../../SVG/nexts.svg';
+import { ReactComponent as ExpressLogo } from '../../SVG/express.svg';
+import { ReactComponent as GitLogo } from '../../SVG/git.svg';
+import { ReactComponent as DockerLogo } from '../../SVG/docker.svg';
+import { ReactComponent as BootstrapLogo } from '../../SVG/bootstrap.svg';
+import { ReactComponent as ThreejsLogo } from '../../SVG/threejs.svg';
+import { ReactComponent as PhotoshopLogo } from '../../SVG/photoshop.svg';
+import { ReactComponent as DsmaxLogo } from '../../SVG/3ds-max.svg';
+import { ReactComponent as BashLogo } from '../../SVG/bash.svg';
+
 export default function BodyContainer() {
 
     return <div id="body-bontainer">
@@ -65,33 +89,129 @@ export default function BodyContainer() {
             <div className="body-module">
                 <div className="body-module-title">EDUCATION</div>
                 <ul className="body-module-text">
-                   <li>Ingeniero en Sistemas, especialidad en desarrollo de software</li>
-                   <li>Instituto Tecnologico de los Llanos</li>
-                   <li>Septiembre 2016 - Junio 2020</li>
-                   <li>Altagracia de Orituco, Edo Guarico, Venezuela</li>
-                   <li>GPA: 3,81</li>
+                    <li>Ingeniero en Sistemas, especialidad en desarrollo de software</li>
+                    <li>Instituto Tecnologico de los Llanos</li>
+                    <li>Septiembre 2016 - Junio 2020</li>
+                    <li>Altagracia de Orituco, Edo Guarico, Venezuela</li>
+                    <li>GPA: 3,81</li>
                 </ul>
             </div>
 
             <div className="body-module">
                 <div className="body-module-title">RELEVANT COURSES</div>
                 <ul className="body-module-text">
-                  <li>Curso de HTML y CSS, Platzi</li>
-                  <li>Curso de Fundamentos de Ingeniería de Software, Platzi</li>
-                  <li>Curso de diseño responsivo, Platzi</li>
-                  <li>Curso de estructuras de datos y algoritmos, Udemy</li>
-                  <li>Estructura de código de C#, Microsoft</li>
-                 <li>Curso de Introducción al Desarrollo Web: HTML y CSS, Google</li>
-                 <li>Curso intensivo de aprendizaje automático, Google</li>
-                 <li>Certificado Profesional de Análisis de datos, Google</li>
+                    <li>Curso de HTML y CSS, Platzi</li>
+                    <li>Curso de Fundamentos de Ingeniería de Software, Platzi</li>
+                    <li>Curso de diseño responsivo, Platzi</li>
+                    <li>Curso de estructuras de datos y algoritmos, Udemy</li>
+                    <li>Estructura de código de C#, Microsoft</li>
+                    <li>Curso de Introducción al Desarrollo Web: HTML y CSS, Google</li>
+                    <li>Curso intensivo de aprendizaje automático, Google</li>
+                    <li>Certificado Profesional de Análisis de datos, Google</li>
                 </ul>
             </div>
 
             <div className="body-module">
                 <div className="body-module-title">SKILLS</div>
-                <p className="body-module-text">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor optio voluptate, vero assumenda dolore molestiae hic autem error ratione quas incidunt, accusantium aut exercitationem consequuntur odio perferendis aperiam non. Assumenda.
-                </p>
+
+                <div className="logo-main-container">
+
+                    <div className="logo-container">
+                        <HtmlLogo className="logo" />
+                        <span>HTML</span>
+                    </div>
+                    <div className="logo-container">
+                        <CssLogo className="logo" />
+                        <span>CSS</span>
+                    </div>
+
+                    <div className="logo-container">
+                        <JSLogo className="logo" />
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div className="logo-container">
+                        <CSLogo className="logo" />
+                        <span>C#</span>
+                    </div>
+                    <div className="logo-container">
+                        <CLogo className="logo" />
+                        <span>C</span>
+                    </div>
+                    <div className="logo-container">
+                        <CPPLogo className="logo" />
+                        <span>C++</span>
+                    </div>
+                    <div className="logo-container">
+                        <JavaLogo className="logo" />
+                        <span>Java</span>
+                    </div>
+                    <div className="logo-container">
+                        <KotlinLogo className="logo" />
+                        <span>Kotlin</span>
+                    </div>
+                    <div className="logo-container">
+                        <PHPLogo className="logo" />
+                        <span>PHP</span>
+                    </div>
+                    <div className="logo-container">
+                        <LaravelLogo className="logo" />
+                        <span>Laravel</span>
+                    </div>
+                    <div className="logo-container">
+                        <PythonLogo className="logo" />
+                        <span>Python</span>
+                    </div>
+                    <div className="logo-container">
+                        <ReactLogo className="logo" />
+                        <span>React</span>
+                    </div>
+                    <div className="logo-container">
+                        <NodeJsLogo className="logo" />
+                        <span>Node JS</span>
+                    </div>
+                    <div className="logo-container">
+                        <NextJsLogo className="logo" />
+                        <span>Next JS</span>
+                    </div>
+                    <div className="logo-container">
+                        <ExpressLogo className="logo" />
+                        <span>Express</span>
+                    </div>
+                    <div className="logo-container">
+                        <BootstrapLogo className="logo" />
+                        <span>Bootstrap</span>
+                    </div>
+                    <div className="logo-container">
+                        <MaterialUILogo className="logo" />
+                        <span>Material UI</span>
+                    </div>
+                    <div className="logo-container">
+                        <GitLogo className="logo" />
+                        <span>Git</span>
+                    </div>
+                    <div className="logo-container">
+                        <DockerLogo className="logo" />
+                        <span>Docker</span>
+                    </div>
+                    <div className="logo-container">
+                        <ThreejsLogo className="logo" />
+                        <span>Three JS</span>
+                    </div>
+                    <div className="logo-container">
+                        <DsmaxLogo className="logo" />
+                        <span>3ds max</span>
+                    </div>
+                    <div className="logo-container">
+                        <PhotoshopLogo className="logo" />
+                        <span>Photoshop</span>
+                    </div>
+                    <div className="logo-container">
+                        <BashLogo className="logo" />
+                        <span>Bash</span>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
