@@ -12,3 +12,8 @@
    font-weight: 600;
    border-bottom: 2px solid black;
 }
+.body-module-subtitle{
+    display: block;
+    margin: 5px 0 5px 0;
+    font-weight: 700;
+}
