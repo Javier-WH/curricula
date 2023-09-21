@@ -11,27 +11,27 @@ export default function Links(){
 
         <div className="link-element">
             <MailIcon />
-            <a href="www.google.com"> FranciscoJavierR@gmail.com</a>
+            <a href="https://mail.google.com"> FranciscoJavierR@gmail.com</a>
         </div>
 
         <div className="link-element">
             <PhoneIcon/>
-            <a href="www.google.com">(058) 0414-2946675</a>
+            <a href="a">(058) 0414-2946675</a>
         </div>
 
         <div className="link-element">
             <LocationIcon/>
-            <a href="www.google.com">Caracas, Venezuela</a>
+            <a href="a">Caracas, Venezuela</a>
         </div>
 
         <div className="link-element">
             <LinkedInIcon/>
-            <a href="www.google.com">Linkedin</a>
+            <a href="https://www.linkedin.com/in/francisco-javier-rodríguez-hernández-3463b621b/">Linkedin</a>
         </div>
 
         <div className="link-element">
             <GitHubIcon/>
-            <a href="www.google.com">GitHub</a>
+            <a href="https://github.com/Javier-WH">GitHub</a>
         </div>
      
     </div>

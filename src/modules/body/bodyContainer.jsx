@@ -23,6 +23,7 @@ import { ReactComponent as ThreejsLogo } from '../../SVG/threejs.svg';
 import { ReactComponent as PhotoshopLogo } from '../../SVG/photoshop.svg';
 import { ReactComponent as DsmaxLogo } from '../../SVG/3ds-max.svg';
 import { ReactComponent as BashLogo } from '../../SVG/bash.svg';
+import { ReactComponent as AndroidLogo } from '../../SVG/android.svg';
 
 export default function BodyContainer() {
 
@@ -77,13 +78,12 @@ export default function BodyContainer() {
                 </ul>
 
             </div>
-
-            <div className="body-module">
+       {/* <div className="body-module">
                 <div className="body-module-title">PROJECTS</div>
                 <p className="body-module-text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor optio voluptate, vero assumenda dolore molestiae hic autem error ratione quas incidunt, accusantium aut exercitationem consequuntur odio perferendis aperiam non. Assumenda.
                 </p>
-            </div>
+            </div>*/}
         </div>
         <div>
             <div className="body-module">
@@ -209,6 +209,11 @@ export default function BodyContainer() {
                     <div className="logo-container">
                         <BashLogo className="logo" />
                         <span>Bash</span>
+                    </div>
+
+                    <div className="logo-container">
+                        <AndroidLogo className="logo" />
+                        <span>Android Studio</span>
                     </div>
 
                 </div>
