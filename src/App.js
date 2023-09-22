@@ -6,8 +6,10 @@ import BodyContainer from './modules/body/bodyContainer';
 function App() {
   return (
     <div className="App">
+      <div className='header-background'>
        <Header/>
        <Links/>
+      </div>
        <BodyContainer/>
     </div>
   );
