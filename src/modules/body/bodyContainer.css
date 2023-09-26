@@ -1,7 +1,8 @@
 #body-bontainer{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin-top: 15px;
+    margin-top: 12px;
+    margin-left: 20px;
 }
 .body-module{
     margin-right: 20px;
@@ -10,7 +11,8 @@
 .body-module-title{
    font-size: 25px;
    font-weight: 600;
-   border-bottom: 2px solid black;
+   color: var(--main-color);
+   border-bottom: 2px solid var(--main-color);
 }
 .body-module-subtitle{
     display: block;
@@ -37,4 +39,17 @@
 .logo{
     width: 50px;
     height: 50px;
+}
+
+.body-module-text{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+@media screen and (max-width: 555px){
+    #body-bontainer{
+        display: block;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
 }

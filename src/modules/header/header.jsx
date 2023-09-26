@@ -8,7 +8,6 @@ export default function Header() {
             FRANCISCO JAVIER RODRÍGUEZ HERNÁNDEZ
         </div>
 
-
         <div id="title">
             Web Developer, Web Designer
         </div>

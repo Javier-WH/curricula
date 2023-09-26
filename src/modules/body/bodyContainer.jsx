@@ -78,12 +78,7 @@ export default function BodyContainer() {
                 </ul>
 
             </div>
-       {/* <div className="body-module">
-                <div className="body-module-title">PROJECTS</div>
-                <p className="body-module-text">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor optio voluptate, vero assumenda dolore molestiae hic autem error ratione quas incidunt, accusantium aut exercitationem consequuntur odio perferendis aperiam non. Assumenda.
-                </p>
-            </div>*/}
+     
         </div>
         <div>
             <div className="body-module">

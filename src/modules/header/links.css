@@ -1,6 +1,7 @@
 #link-container{
+    font-size: 1.2vw;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 0px;
     margin: 20px 0 20px 0;
 }
@@ -9,10 +10,13 @@
     display: flex;
     flex-direction: row;
     gap: 5px;
-    color: gray;
+    color: white;
 }
 
 .link-element a{
-    color: black;
+    color: white;
     text-decoration: none;
+}
+.clickeable-element:hover > *{
+    color: rgb(110, 243, 143);
 }
