@@ -18,7 +18,6 @@ export default async function getWeatherData({city, countryCode}) {
     //console.log(data.data[0]);
     return data.data[0];
   } catch (error) {
-    console.log('Error al obtener los datos del clima:', error);
     return {error: "Error al comunicarse con la API"}
   }
 }
