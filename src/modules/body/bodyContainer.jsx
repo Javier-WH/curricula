@@ -25,7 +25,13 @@ import { ReactComponent as DsmaxLogo } from '../../SVG/3ds-max.svg';
 import { ReactComponent as BashLogo } from '../../SVG/bash.svg';
 import { ReactComponent as AndroidLogo } from '../../SVG/android.svg';
 
+import BasicTabs from "../tabs/tabs";
+
+
 export default function BodyContainer() {
+
+
+
 
     return <div id="body-bontainer">
         <div>
@@ -77,6 +83,12 @@ export default function BodyContainer() {
                     </li>
                 </ul>
 
+            </div>
+
+            
+            <div className="body-module">
+                <div className="body-module-title">EXAMPLES</div>
+                <BasicTabs/>
             </div>
      
         </div>
