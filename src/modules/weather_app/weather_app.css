@@ -1,4 +1,48 @@
 #weather-icon{
-  transform: scale(4);
+  transform: scale(6);
   margin-bottom: 50px;
+  margin-top: 50px;
+}
+#weather-icon-main-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+#weater-icon-container{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+#weather-icon-text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+#temperature{
+  font-size: 80px;
+}
+#weather-main-container{
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  color: #009999;
+}
+.sun-icon{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #009999;
+}
+#weather-data-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+}
+#courtesy{
+  text-decoration: none;
+  color: #009999;
 }

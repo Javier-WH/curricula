@@ -20,7 +20,7 @@
             "h_angle": 0,
             "dewpt": 15.65,
             "weather": {
-                "icon": "c03d",
+                "icon": "c01d",
                 "code": 803,
                 "description": "Broken clouds"
             },

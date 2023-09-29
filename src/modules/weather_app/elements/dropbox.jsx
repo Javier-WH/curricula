@@ -17,7 +17,7 @@ export default function SelectLabels( {setSelectedCity}) {
   return (
     <div>
       <FormControl sx={{ m: 1, minWidth: 120 }}>
-        <InputLabel id="demo-simple-select-helper-label">Zona</InputLabel>
+        <InputLabel id="demo-simple-select-helper-label">City</InputLabel>
         <Select
           labelId="demo-simple-select-helper-label"
           id="demo-simple-select-helper"
@@ -26,7 +26,7 @@ export default function SelectLabels( {setSelectedCity}) {
           onChange={handleChange}
         >
           <MenuItem value="">
-            <em>Ninguna</em>
+            <em>None</em>
           </MenuItem>
           <MenuItem value="MexicoCity">Mexico City</MenuItem>
           <MenuItem value="NewYork">New York</MenuItem>
@@ -55,7 +55,7 @@ export default function SelectLabels( {setSelectedCity}) {
 
 
         </Select>
-        <FormHelperText>With label + helper text</FormHelperText>
+        <FormHelperText>select a city</FormHelperText>
       </FormControl>
     </div>
   );

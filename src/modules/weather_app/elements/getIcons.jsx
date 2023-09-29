@@ -1,6 +1,9 @@
 
 
 export default function GetIcon({ code }) {
+    if(code === "placeHolder"){
+        return
+    }
 
     switch (code) {
         case "a01d":
